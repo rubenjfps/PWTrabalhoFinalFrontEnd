@@ -1,0 +1,9 @@
+.trends{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+.trends-arrow{
+    transform: rotate(180deg);
+}

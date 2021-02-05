@@ -19,12 +19,20 @@ align-items: center;
   text-align: right;
 }
 
+.go-to-jokes{
+  font-size: 1.3vw;
+  margin-top: 5vw;
+  width: 43%;
+  text-align: left;
+}
+
 a{
   color: #1A1A1A;
   text-decoration: none;
 }
 a:hover{
   color:#ffd46a;
+  cursor: pointer;
 }
 
 .arrow{
