@@ -13,8 +13,10 @@ function App() {
         <img src={logo}></img>
       </div>
       <Router>
-          <Route path="/jokes" component={Jokes}/>
+        <Switch>
           <Route path="/trends" component={Trends}/>
+          <Route path="/" component={Jokes}/>
+          </Switch>
       </Router>
     </div>
   );
